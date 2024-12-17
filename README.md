@@ -47,32 +47,6 @@ The query will produce results like the following:
 | 10355   | Around the Horn                      | 11/15/1996  |
 | 10278   | Berglunds snabbköp                   | 8/12/1996   |
 
-# Different Types of SQL JOINs
 
-In SQL, there are several types of JOINs, each serving a specific purpose when combining rows from two or more tables. Here are the main types of JOINs:
 
-### 1. INNER JOIN
-- **Description**: Returns records that have matching values in both tables.
-- **Use Case**: Retrieve only the rows where there is a match between the tables.
 
----
-
-### 2. LEFT (OUTER) JOIN
-- **Description**: Returns all records from the left table and the matched records from the right table. If no match is found, NULL values are returned for columns from the right table.
-- **Use Case**: Get all rows from the left table, regardless of matches in the right table.
-
----
-
-### 3. RIGHT (OUTER) JOIN
-- **Description**: Returns all records from the right table and the matched records from the left table. If no match is found, NULL values are returned for columns from the left table.
-- **Use Case**: Get all rows from the right table, regardless of matches in the left table.
-
----
-
-### 4. FULL (OUTER) JOIN
-- **Description**: Returns all records when there is a match in either the left or right table. If there is no match, NULL values are returned for unmatched columns from either table.
-- **Use Case**: Combine all rows from both tables, including unmatched rows.
-
----
-
-These SQL commands allow you to implement the different types of JOINs based on your query requirements.
