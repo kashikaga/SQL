@@ -34,7 +34,7 @@ The following SQL statement uses an **INNER JOIN** to select records with matchi
 SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
 FROM Orders
 INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
-
+```
 ### Output
 
 The query will produce results like the following:
@@ -47,7 +47,8 @@ The query will produce results like the following:
 | 10355   | Around the Horn                      | 11/15/1996  |
 | 10278   | Berglunds snabbköp                   | 8/12/1996   |
 
-# Different Types of SQL JOINs
+
+## Different Types of SQL JOINs
 
 In SQL, there are several types of JOINs, each serving a specific purpose when combining rows from two or more tables. Here are the main types of JOINs:
 
